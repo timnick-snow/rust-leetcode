@@ -8,3 +8,4 @@ mod combination_sum;
 mod permute;
 mod permute_unique;
 mod rotate;
+mod group_anagrams;
