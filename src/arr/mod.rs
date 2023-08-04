@@ -6,3 +6,5 @@ mod search_insert;
 mod valid_sudoku;
 mod combination_sum;
 mod permute;
+mod permute_unique;
+mod rotate;

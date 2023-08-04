@@ -75,7 +75,7 @@ mod test {
 
     #[test]
     fn t1() {
-        let vec1 = Solution::permute(vec![1, 2, 3,4]);
+        let vec1 = Solution::permute(vec![1, 2, 3, 4]);
         println!("{:?}", vec1);
     }
 }
