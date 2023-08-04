@@ -5,3 +5,4 @@ mod rotate_search;
 mod search_insert;
 mod valid_sudoku;
 mod combination_sum;
+mod permute;
