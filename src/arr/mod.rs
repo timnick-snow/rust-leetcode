@@ -10,3 +10,5 @@ mod permute_unique;
 mod rotate;
 mod group_anagrams;
 mod spiral_order;
+mod merge;
+mod insert;
