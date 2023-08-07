@@ -12,3 +12,4 @@ mod group_anagrams;
 mod spiral_order;
 mod merge;
 mod insert;
+mod generate_matrix;
