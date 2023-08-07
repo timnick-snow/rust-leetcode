@@ -13,3 +13,4 @@ mod spiral_order;
 mod merge;
 mod insert;
 mod generate_matrix;
+mod get_permutation;
