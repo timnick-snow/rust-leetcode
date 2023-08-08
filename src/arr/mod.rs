@@ -14,3 +14,4 @@ mod merge;
 mod insert;
 mod generate_matrix;
 mod get_permutation;
+mod plus_one;
