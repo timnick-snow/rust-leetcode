@@ -2,6 +2,7 @@ mod add_two_num;
 mod merge_k_lists;
 mod merge_k_lists2;
 mod swap_pair;
+mod rotate_right;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
