@@ -62,31 +62,13 @@ impl Solution {
         let mut ans = p.unwrap().next.take();
         // 定位尾结点
         let mut p = ans.as_mut();
-        while let Some(node) = p {
-            p = node.next.as_mut();
-        }
-        // for _ in 0..k - 1 {
-        //     p = p.unwrap().next.as_mut();
+        // while let Some(node) = p.unwrap().next.as_mut() {
+        //     p = Some(node);
         // }
+        for _ in 0..k - 1 {
+            p = p.unwrap().next.as_mut();
+        }
         p.unwrap().next = head;
         ans
     }
 }
-
-
-#[cfg(test)]
-mod test {
-    #[test]
-    pub fn t1() {
-        println!("haha");
-    }
-}
-
-
-
-
-
-
-
-
-
