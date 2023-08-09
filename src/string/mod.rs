@@ -9,3 +9,4 @@ mod length_of_last_word;
 mod is_number;
 mod add_binary;
 mod full_justify;
+mod simplify_path;
