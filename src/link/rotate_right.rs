@@ -62,8 +62,8 @@ impl Solution {
         let mut ans = p.unwrap().next.take();
         // 定位尾结点
         let mut p = ans.as_mut();
-        // while let Some(node) = p.unwrap().next.as_mut() {
-        //     p = Some(node);
+        // while let Some(_) = p.as_ref().unwrap().next.as_ref() {
+        //     p = p.unwrap().next.as_mut();
         // }
         for _ in 0..k - 1 {
             p = p.unwrap().next.as_mut();
