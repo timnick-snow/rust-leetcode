@@ -16,3 +16,4 @@ mod generate_matrix;
 mod get_permutation;
 mod plus_one;
 mod set_zeroes;
+mod search_matrix;
