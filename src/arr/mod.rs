@@ -17,3 +17,4 @@ mod get_permutation;
 mod plus_one;
 mod set_zeroes;
 mod search_matrix;
+mod sort_colors;
