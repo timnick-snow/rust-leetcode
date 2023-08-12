@@ -4,6 +4,7 @@ mod merge_k_lists2;
 mod swap_pair;
 mod rotate_right;
 mod delete_duplicates;
+mod delete_duplicates2;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
