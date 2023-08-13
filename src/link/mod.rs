@@ -5,6 +5,7 @@ mod swap_pair;
 mod rotate_right;
 mod delete_duplicates;
 mod delete_duplicates2;
+mod partition;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
