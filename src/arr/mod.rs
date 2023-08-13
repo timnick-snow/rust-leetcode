@@ -21,3 +21,4 @@ mod sort_colors;
 mod exist;
 mod remove_duplicates2;
 mod rotate_search2;
+mod largest_rectangle_area;
