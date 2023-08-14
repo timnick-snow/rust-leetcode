@@ -4,3 +4,4 @@ mod my_sqrt;
 mod combine;
 mod subsets;
 mod gray_code;
+mod subsets_with_dup;
