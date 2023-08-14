@@ -35,7 +35,7 @@ struct Solution;
 
 impl Solution {
     /// 使用Vec存储待反转的链表结点
-    pub fn reverse_between_v1(mut head: Option<Box<ListNode>>, left: i32, right: i32) -> Option<Box<ListNode>> {
+    pub fn reverse_between_v1(head: Option<Box<ListNode>>, left: i32, right: i32) -> Option<Box<ListNode>> {
         if left == right {
             return head;
         }

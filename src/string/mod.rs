@@ -11,3 +11,4 @@ mod add_binary;
 mod full_justify;
 mod simplify_path;
 mod min_window;
+mod restore_ip_addresses;
