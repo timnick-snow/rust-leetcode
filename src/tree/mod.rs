@@ -1,5 +1,6 @@
 mod inorder_traversal;
 mod generate_trees;
+mod num_trees;
 
 use std::cell::RefCell;
 use std::rc::Rc;
