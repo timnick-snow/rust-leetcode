@@ -1,7 +1,5 @@
 #![allow(dead_code)]
 
-struct Solution;
-
 /*
 96. 不同的二叉搜索树
 中等
@@ -26,6 +24,8 @@ struct Solution;
 
 1 <= n <= 19
  */
+struct Solution;
+
 impl Solution {
     pub fn num_trees(n: i32) -> i32 {
         let n = n as u64;
