@@ -3,6 +3,7 @@ mod generate_trees;
 mod num_trees;
 mod valid_bst;
 mod recover_tree;
+mod is_same_tree;
 
 use std::cell::RefCell;
 use std::rc::Rc;
