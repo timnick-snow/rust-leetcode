@@ -2,6 +2,7 @@ mod inorder_traversal;
 mod generate_trees;
 mod num_trees;
 mod valid_bst;
+mod recover_tree;
 
 use std::cell::RefCell;
 use std::rc::Rc;
