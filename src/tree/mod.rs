@@ -9,6 +9,7 @@ mod level_order;
 mod zigzag_level_order;
 mod max_depth;
 mod build_tree;
+mod build_tree2;
 
 use std::cell::RefCell;
 use std::rc::Rc;
