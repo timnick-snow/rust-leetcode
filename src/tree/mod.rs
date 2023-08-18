@@ -8,6 +8,7 @@ mod is_symmetric;
 mod level_order;
 mod zigzag_level_order;
 mod max_depth;
+mod build_tree;
 
 use std::cell::RefCell;
 use std::rc::Rc;
