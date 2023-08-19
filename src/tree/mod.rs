@@ -13,6 +13,7 @@ mod build_tree2;
 mod level_order_bottom;
 mod sorted_array_to_bst;
 mod is_balanced;
+mod sorted_list_to_bst;
 
 use std::cell::RefCell;
 use std::rc::Rc;
