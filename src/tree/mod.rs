@@ -11,6 +11,7 @@ mod max_depth;
 mod build_tree;
 mod build_tree2;
 mod level_order_bottom;
+mod sorted_array_to_bst;
 
 use std::cell::RefCell;
 use std::rc::Rc;
