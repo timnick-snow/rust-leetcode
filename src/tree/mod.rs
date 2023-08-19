@@ -15,6 +15,7 @@ mod sorted_array_to_bst;
 mod is_balanced;
 mod sorted_list_to_bst;
 mod min_depth;
+mod has_path_sum;
 
 use std::cell::RefCell;
 use std::rc::Rc;
