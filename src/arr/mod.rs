@@ -24,3 +24,4 @@ mod rotate_search2;
 mod largest_rectangle_area;
 mod maximal_rectangle;
 mod merge2;
+mod minimum_total;
