@@ -18,6 +18,7 @@ mod min_depth;
 mod has_path_sum;
 mod check_tree;
 mod path_sum;
+mod flatten;
 
 use std::cell::RefCell;
 use std::rc::Rc;
