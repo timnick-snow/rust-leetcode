@@ -13,3 +13,4 @@ mod simplify_path;
 mod min_window;
 mod restore_ip_addresses;
 mod is_interleave;
+mod num_distinct;
