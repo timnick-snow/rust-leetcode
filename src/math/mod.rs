@@ -6,3 +6,4 @@ mod subsets;
 mod gray_code;
 mod subsets_with_dup;
 mod num_decodings;
+mod generate;
