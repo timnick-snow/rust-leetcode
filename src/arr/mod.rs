@@ -26,3 +26,4 @@ mod maximal_rectangle;
 mod merge2;
 mod minimum_total;
 mod max_profit;
+mod max_profit2;
