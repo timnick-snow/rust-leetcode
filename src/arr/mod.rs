@@ -27,3 +27,4 @@ mod merge2;
 mod minimum_total;
 mod max_profit;
 mod max_profit2;
+mod max_profit3;
