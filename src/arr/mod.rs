@@ -28,3 +28,4 @@ mod minimum_total;
 mod max_profit;
 mod max_profit2;
 mod max_profit3;
+mod max_dist_to_closest;
