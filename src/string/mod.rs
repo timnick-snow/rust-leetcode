@@ -15,3 +15,4 @@ mod restore_ip_addresses;
 mod is_interleave;
 mod num_distinct;
 mod can_change;
+mod is_palindrome;
