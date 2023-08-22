@@ -30,3 +30,4 @@ mod max_profit2;
 mod max_profit3;
 mod max_dist_to_closest;
 mod longest_consecutive;
+mod solve_round;
