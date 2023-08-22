@@ -19,6 +19,7 @@ mod has_path_sum;
 mod check_tree;
 mod path_sum;
 mod flatten;
+mod max_path_sum;
 
 use std::cell::RefCell;
 use std::rc::Rc;
