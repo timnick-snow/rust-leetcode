@@ -20,6 +20,7 @@ mod check_tree;
 mod path_sum;
 mod flatten;
 mod max_path_sum;
+mod sum_numbers;
 
 use std::cell::RefCell;
 use std::rc::Rc;
