@@ -16,3 +16,4 @@ mod is_interleave;
 mod num_distinct;
 mod can_change;
 mod is_palindrome;
+mod partition;
