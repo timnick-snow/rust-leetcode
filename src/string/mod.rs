@@ -17,3 +17,4 @@ mod num_distinct;
 mod can_change;
 mod is_palindrome;
 mod partition;
+mod min_cut;

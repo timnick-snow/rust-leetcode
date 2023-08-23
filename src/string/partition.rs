@@ -60,6 +60,7 @@ impl Solution {
         ans
     }
 }
+
 /// i: 剩余字符的开始索引
 fn dfs(s: &[u8], i: usize, cur: &mut Vec<String>, ans: &mut Vec<Vec<String>>, dp: &Vec<Vec<bool>>) {
     if i == s.len() {
@@ -68,7 +69,7 @@ fn dfs(s: &[u8], i: usize, cur: &mut Vec<String>, ans: &mut Vec<Vec<String>>, dp
     }
     for j in i..s.len() {
         if dp[i][j] {
-            cur.push(String::from_utf8_lossy(&s[i..j+1]).into());
+            cur.push(String::from_utf8_lossy(&s[i..j + 1]).into());
             dfs(s, j + 1, cur, ans, dp);
             cur.pop();
         }
