@@ -27,11 +27,51 @@ s 仅由小写英文字母组成
  */
 struct Solution;
 
+/*
+方案改进
+由于要大量判断子串是否为回文串，可以使用动态规划优化
+记dp[i][j]表示字符串s的子串s[i..j+1]是否为回文串
+那么有
+    dp[i][j] = true, if j<=i
+    dp[i][j] = dp[i+1][j-1] && s[i]==s[j], 其它情况
+
+这里的状态转移方程中： i依赖i+1, 即依赖后状态，因此i应该逆向遍历
+
+求出状态空间后，可以O(1)时间内判断子串是否为回文串了
+ */
 impl Solution {
     pub fn partition(s: String) -> Vec<Vec<String>> {
         let mut ans = Vec::new();
         helper(&s, &mut Vec::new(), &mut ans);
         ans
+    }
+    pub fn partition2(s: String) -> Vec<Vec<String>> {
+        let n = s.len();
+        let s = s.into_bytes();
+        // 子串回文状态空间
+        let mut dp = vec![vec![true; n]; n];
+        for i in (0..n).rev() {
+            for j in i + 1..n {
+                dp[i][j] = s[i] == s[j] && dp[i + 1][j - 1];
+            }
+        }
+        let mut ans = Vec::new();
+        dfs(&s, 0, &mut Vec::new(), &mut ans, &dp);
+        ans
+    }
+}
+/// i: 剩余字符的开始索引
+fn dfs(s: &[u8], i: usize, cur: &mut Vec<String>, ans: &mut Vec<Vec<String>>, dp: &Vec<Vec<bool>>) {
+    if i == s.len() {
+        ans.push(cur.clone());
+        return;
+    }
+    for j in i..s.len() {
+        if dp[i][j] {
+            cur.push(String::from_utf8_lossy(&s[i..j+1]).into());
+            dfs(s, j + 1, cur, ans, dp);
+            cur.pop();
+        }
     }
 }
 
@@ -76,7 +116,7 @@ mod test {
 
     #[test]
     pub fn t1() {
-        let ans = Solution::partition("aab".into());
+        let ans = Solution::partition2("aab".into());
         println!("{:?}", ans);
     }
 
