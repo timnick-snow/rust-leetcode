@@ -1,5 +1,7 @@
 rust个人练习 leetcode题目
 
+部分题目 leetcode还不支持 `rust` 语言进行作答，此类题目将使用`java`
+
 题库首页：https://leetcode.cn/problemset/all/
 
 ## todo list

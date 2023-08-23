@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+}
+
+group = 'io.github.snow'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src-java/main/java']
+        }
+    }
+
+    test {
+        java {
+            srcDirs = ['src-java/test/java']
+        }
+    }
+}
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/central' }
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+    filter {
+        // include all integration tests
+        includeTestsMatching "*NeedTest"
+        failOnNoMatchingTests false
+    }
+}
