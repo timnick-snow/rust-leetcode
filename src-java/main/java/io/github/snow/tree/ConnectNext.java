@@ -93,7 +93,7 @@ public class ConnectNext {
         root.right.left = n6;
         root.right.right = n7;
 
-        new Solution().connect(root);
+        Node _node = new Solution().connect(root);
         assert root.next == null;
         assert n2.next == n3;
         assert n4.next == n5;
