@@ -33,3 +33,4 @@ mod longest_consecutive;
 mod solve_round;
 mod can_complete_circuit;
 mod count_servers;
+mod candy;
