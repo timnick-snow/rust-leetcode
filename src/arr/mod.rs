@@ -35,3 +35,4 @@ mod can_complete_circuit;
 mod count_servers;
 mod candy;
 mod single_number;
+mod single_number2;
