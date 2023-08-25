@@ -1,5 +1,8 @@
 package io.github.snow.link;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * singly-linked list
  *
@@ -23,5 +26,15 @@ class ListNode {
             p = p.next;
         }
         return dummy.next;
+    }
+
+    public List<Integer> toList() {
+        List<Integer> list = new ArrayList<>();
+        ListNode p = this;
+        while (p != null) {
+            list.add(p.val);
+            p = p.next;
+        }
+        return list;
     }
 }
