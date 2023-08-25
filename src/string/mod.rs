@@ -19,3 +19,4 @@ mod is_palindrome;
 mod partition;
 mod min_cut;
 mod word_break;
+mod word_break2;
