@@ -14,4 +14,14 @@ class ListNode {
         val = x;
         next = null;
     }
+
+    static ListNode build(int[] arr) {
+        ListNode dummy = new ListNode(0);
+        ListNode p = dummy;
+        for (int a : arr) {
+            p.next = new ListNode(a);
+            p = p.next;
+        }
+        return dummy.next;
+    }
 }
