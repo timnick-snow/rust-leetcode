@@ -50,7 +50,7 @@ import java.util.ArrayDeque;
  * @since 2023/8/20
  */
 public class ConnectNext {
-    class Solution {
+    static class Solution {
         public Node connect(Node root) {
             if (root == null) {
                 return null;

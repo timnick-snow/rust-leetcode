@@ -79,7 +79,7 @@ public class CloneGraph {
      * 使用一个队列来保存 那些已经创建好但是邻居待处理的节点
      */
 
-    class Solution {
+    static class Solution {
 
         public Node cloneGraph(Node node) {
             if (node == null) {

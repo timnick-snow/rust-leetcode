@@ -28,6 +28,8 @@ repositories {
 }
 
 dependencies {
+    implementation('org.assertj:assertj-core:3.24.2')
+    implementation 'org.junit.jupiter:junit-jupiter:5.10.0'
 }
 
 test {
