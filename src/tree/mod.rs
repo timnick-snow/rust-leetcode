@@ -21,6 +21,7 @@ mod path_sum;
 mod flatten;
 mod max_path_sum;
 mod sum_numbers;
+mod good_nodes;
 
 use std::cell::RefCell;
 use std::rc::Rc;
