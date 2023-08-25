@@ -18,3 +18,4 @@ mod can_change;
 mod is_palindrome;
 mod partition;
 mod min_cut;
+mod word_break;
