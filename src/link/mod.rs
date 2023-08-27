@@ -7,6 +7,7 @@ mod delete_duplicates;
 mod delete_duplicates2;
 mod partition;
 mod reverse_between;
+mod insertion_sort_list;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
