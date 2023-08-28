@@ -39,3 +39,4 @@ mod single_number2;
 mod summary_ranges;
 mod lru_cache;
 mod eval_rpn;
+mod max_product;
