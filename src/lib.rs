@@ -8,6 +8,7 @@ mod math;
 mod tree;
 mod graph;
 
+mod other;
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
