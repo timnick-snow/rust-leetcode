@@ -9,6 +9,7 @@ mod partition;
 mod reverse_between;
 mod insertion_sort_list;
 mod merge_two_lists;
+mod sort_list;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
