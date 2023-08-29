@@ -24,6 +24,7 @@ mod sum_numbers;
 mod good_nodes;
 mod preorder_traversal;
 mod postorder_traversal;
+mod num_factored_binary_trees;
 
 use std::cell::RefCell;
 use std::rc::Rc;
