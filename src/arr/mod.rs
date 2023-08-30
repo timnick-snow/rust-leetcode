@@ -46,3 +46,4 @@ mod find_peak_element;
 mod maximum_gap;
 mod two_sum2;
 mod minimum_jumps;
+mod majority_element;
