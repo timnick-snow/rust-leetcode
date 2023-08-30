@@ -9,3 +9,4 @@ mod num_decodings;
 mod generate;
 mod get_row;
 mod fraction_to_decimal;
+mod convert_to_title;
