@@ -6,3 +6,4 @@ mod min_path_sum;
 mod climb_stairs;
 mod min_distance;
 mod max_size_slices;
+mod calculate_minimum_hp;
