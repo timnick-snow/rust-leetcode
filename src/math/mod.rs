@@ -12,3 +12,4 @@ mod fraction_to_decimal;
 mod convert_to_title;
 mod title_to_number;
 mod trailing_zeroes;
+mod ways_to_buy_pens_pencils;
