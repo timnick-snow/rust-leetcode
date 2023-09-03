@@ -49,3 +49,4 @@ mod minimum_jumps;
 mod majority_element;
 mod largest_number;
 mod capture_forts;
+mod eliminate_maximum;
