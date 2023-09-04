@@ -50,3 +50,4 @@ mod majority_element;
 mod largest_number;
 mod capture_forts;
 mod eliminate_maximum;
+mod max_profit4;
