@@ -7,3 +7,4 @@ mod n_queens;
 mod max_sub_array;
 mod sum;
 mod reverse_bits;
+mod hamming_weight;
