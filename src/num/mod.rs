@@ -8,3 +8,4 @@ mod max_sub_array;
 mod sum;
 mod reverse_bits;
 mod hamming_weight;
+mod range_bitwise_and;
