@@ -10,6 +10,7 @@ mod reverse_between;
 mod insertion_sort_list;
 mod merge_two_lists;
 mod sort_list;
+mod remove_elements;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
