@@ -23,3 +23,4 @@ mod word_break2;
 mod reverse_words;
 mod compare_version;
 mod find_repeated_dna_sequences;
+mod is_isomorphic;
