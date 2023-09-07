@@ -11,6 +11,7 @@ mod insertion_sort_list;
 mod merge_two_lists;
 mod sort_list;
 mod remove_elements;
+mod reverse_list;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
