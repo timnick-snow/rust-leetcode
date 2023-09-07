@@ -28,6 +28,7 @@ mod num_factored_binary_trees;
 mod bst_iter;
 mod codec;
 mod right_side_view;
+mod trie;
 
 use std::cell::RefCell;
 use std::rc::Rc;
