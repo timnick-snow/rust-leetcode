@@ -39,8 +39,6 @@ word 和 prefix 仅由小写英文字母组成
 insert、search 和 startsWith 调用次数 总计 不超过 3 * 10^4 次
  */
 
-struct Solution;
-
 
 #[derive(Default)]
 struct Trie {
