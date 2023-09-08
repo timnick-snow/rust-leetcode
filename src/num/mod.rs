@@ -11,3 +11,4 @@ mod hamming_weight;
 mod range_bitwise_and;
 mod is_happy;
 mod count_primes;
+mod find_delayed_arrival_time;
