@@ -12,4 +12,5 @@ rust个人练习 leetcode题目
 * [149. 直线上最多的点数](https://leetcode.cn/problems/max-points-on-a-line/)  
 * [210. 课程表 II](https://leetcode.cn/problems/design-add-and-search-words-data-structure/)  
 * [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/description/)  
+* [214. 最短回文串](https://leetcode.cn/problems/shortest-palindrome/description/)  
 
