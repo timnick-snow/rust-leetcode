@@ -10,4 +10,6 @@ rust个人练习 leetcode题目
 * [127. 单词接龙](https://leetcode.cn/problems/word-ladder/)
 * ✅  [131.分割回文串](https://leetcode.cn/problems/palindrome-partitioning/) 使用动态规划优化判断是否为回文串 
 * [149. 直线上最多的点数](https://leetcode.cn/problems/max-points-on-a-line/)  
+* [210. 课程表 II](https://leetcode.cn/problems/design-add-and-search-words-data-structure/)  
+* [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/description/)  
 
