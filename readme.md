@@ -14,4 +14,5 @@ rust个人练习 leetcode题目
 * [212. 单词搜索 II](https://leetcode.cn/problems/word-search-ii/description/)  
 * [214. 最短回文串](https://leetcode.cn/problems/shortest-palindrome/description/)  
 * [218. 天际线问题](https://leetcode.cn/problems/the-skyline-problem/description/)  
+* [220. 存在重复元素 III](https://leetcode.cn/problems/contains-duplicate-iii/description/)  
 
