@@ -61,3 +61,4 @@ mod rob2;
 mod find_kth_largest;
 mod contains_nearby_duplicate;
 mod contains_duplicate;
+mod maximal_square;
