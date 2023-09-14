@@ -63,3 +63,4 @@ mod contains_nearby_duplicate;
 mod contains_duplicate;
 mod maximal_square;
 mod check_valid_grid;
+mod queens_attackthe_king;
