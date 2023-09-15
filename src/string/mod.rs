@@ -25,3 +25,4 @@ mod compare_version;
 mod find_repeated_dna_sequences;
 mod is_isomorphic;
 mod calculate;
+mod calculate2;
