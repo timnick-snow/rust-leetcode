@@ -69,3 +69,4 @@ mod rob4;
 mod majority_element2;
 mod min_count;
 mod dist_money;
+mod product_except_self;
