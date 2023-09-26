@@ -15,3 +15,4 @@ mod trailing_zeroes;
 mod ways_to_buy_pens_pencils;
 mod combination_sum3;
 mod compute_area;
+mod pass_the_pillow;
