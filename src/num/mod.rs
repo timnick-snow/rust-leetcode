@@ -14,3 +14,4 @@ mod count_primes;
 mod find_delayed_arrival_time;
 mod is_power_of_two;
 mod add_digits;
+mod is_ugly;
