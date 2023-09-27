@@ -33,6 +33,8 @@ struct Solution;
 
 /*
 二分法
+h 上下界
+最小值0，最大值为 min(n,1000) , 注意到 citations[i] <= 1000
  */
 impl Solution {
     pub fn h_index(citations: Vec<i32>) -> i32 {
