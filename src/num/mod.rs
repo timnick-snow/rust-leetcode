@@ -16,3 +16,4 @@ mod is_power_of_two;
 mod add_digits;
 mod is_ugly;
 mod nth_ugly_number;
+mod first_bad_version;
