@@ -78,3 +78,4 @@ mod missing_number;
 mod h_index;
 mod h_index2;
 mod full_bloom_flowers;
+mod can_place_flowers;
