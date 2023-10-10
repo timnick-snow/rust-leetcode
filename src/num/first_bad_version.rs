@@ -50,6 +50,8 @@ impl Solution {
         left as i32
     }
 
+    #[allow(unused_variables)]
+    #[allow(non_snake_case)]
     fn isBadVersion(&self, version: i32) -> bool {
         todo!()
     }
