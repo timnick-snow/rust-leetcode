@@ -28,3 +28,4 @@ mod calculate;
 mod calculate2;
 mod is_anagram;
 mod word_pattern;
+mod get_hint;
