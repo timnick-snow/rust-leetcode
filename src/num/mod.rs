@@ -19,3 +19,4 @@ mod nth_ugly_number;
 mod first_bad_version;
 mod split_num;
 mod num_squares;
+mod is_additive_number;
