@@ -4,3 +4,4 @@ mod stock_price;
 mod median_finder;
 mod num_array;
 mod num_matrix;
+mod num_array2;
