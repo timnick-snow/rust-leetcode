@@ -30,3 +30,4 @@ mod is_anagram;
 mod word_pattern;
 mod get_hint;
 mod remove_invalid_parentheses;
+mod remove_duplicate_letters;
