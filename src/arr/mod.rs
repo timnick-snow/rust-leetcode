@@ -91,3 +91,4 @@ mod max_profit5;
 mod max_kelements;
 mod max_coins;
 mod count_smaller;
+mod tuple_same_product;
