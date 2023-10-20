@@ -21,3 +21,4 @@ mod split_num;
 mod num_squares;
 mod is_additive_number;
 mod nth_super_ugly_number;
+mod is_power_of_three;
