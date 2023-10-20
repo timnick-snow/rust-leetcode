@@ -5,3 +5,4 @@ mod median_finder;
 mod num_array;
 mod num_matrix;
 mod num_array2;
+mod categorize_box;
