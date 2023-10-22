@@ -97,3 +97,4 @@ mod max_number;
 mod wiggle_sort;
 mod longest_increasing_path;
 mod count_range_sum;
+mod max_satisfaction;
