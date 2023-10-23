@@ -29,6 +29,7 @@ mod bst_iter;
 mod codec;
 mod right_side_view;
 mod trie;
+mod is_valid_serialization;
 
 use std::cell::RefCell;
 use std::rc::Rc;
