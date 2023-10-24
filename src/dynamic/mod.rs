@@ -8,3 +8,4 @@ mod min_distance;
 mod max_size_slices;
 mod calculate_minimum_hp;
 mod coin_change;
+mod num_rolls_to_target;
