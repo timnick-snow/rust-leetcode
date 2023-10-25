@@ -24,3 +24,4 @@ mod nth_super_ugly_number;
 mod is_power_of_three;
 mod count_bits;
 mod is_power_of_four;
+mod punishment_number;
