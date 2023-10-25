@@ -32,3 +32,4 @@ mod get_hint;
 mod remove_invalid_parentheses;
 mod remove_duplicate_letters;
 mod reverse_string;
+mod reverse_vowels;
