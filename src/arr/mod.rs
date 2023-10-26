@@ -102,3 +102,5 @@ mod count_seniors;
 mod increasing_triplet;
 mod top_k_frequent;
 mod intersection;
+mod intersect;
+
