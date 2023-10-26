@@ -26,3 +26,4 @@ mod count_bits;
 mod is_power_of_four;
 mod punishment_number;
 mod integer_break;
+mod count_digits;
