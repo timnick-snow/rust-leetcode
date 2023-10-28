@@ -59,9 +59,10 @@ impl Solution {
             if sum + satisfaction[i] > 0 {
                 ans += sum + satisfaction[i];
                 sum += satisfaction[i];
+            } else {
+                break;
             }
         }
-
         ans
     }
 }
