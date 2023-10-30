@@ -18,3 +18,4 @@ mod compute_area;
 mod pass_the_pillow;
 mod bulb_switch;
 mod can_measure_water;
+mod is_perfect_square;
