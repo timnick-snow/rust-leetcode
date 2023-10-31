@@ -29,3 +29,4 @@ mod integer_break;
 mod count_digits;
 mod count_numbers_with_unique_digits;
 mod get_sum;
+mod super_pow;
