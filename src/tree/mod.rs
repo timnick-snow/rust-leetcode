@@ -30,6 +30,7 @@ mod codec;
 mod right_side_view;
 mod trie;
 mod is_valid_serialization;
+mod smallest_missing_value_subtree;
 
 use std::cell::RefCell;
 use std::rc::Rc;
