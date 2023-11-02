@@ -62,6 +62,6 @@ impl Solution {
     }
 }
 
-unsafe fn guess(num: i32) -> i32 {
+unsafe fn guess(_num: i32) -> i32 {
     todo!()
 }
