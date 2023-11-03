@@ -64,7 +64,7 @@ struct Solution;
 再用动态规划求解更复杂的情况
  */
 impl Solution {
-    pub fn get_money_amount(n: i32) -> i32 {
+    pub fn get_money_amount(_n: i32) -> i32 {
         todo!()
     }
 }
