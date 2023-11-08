@@ -34,3 +34,4 @@ mod remove_duplicate_letters;
 mod reverse_string;
 mod reverse_vowels;
 mod count_points;
+mod find_the_longest_balanced_substring;
