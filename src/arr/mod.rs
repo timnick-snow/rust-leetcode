@@ -111,4 +111,5 @@ mod k_smallest_pairs;
 mod wiggle_max_length;
 mod find_maximum_xor;
 mod vowel_strings;
+mod shuffle;
 
