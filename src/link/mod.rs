@@ -12,6 +12,7 @@ mod merge_two_lists;
 mod sort_list;
 mod remove_elements;
 mod reverse_list;
+mod get_random;
 
 
 #[derive(PartialEq, Eq, Clone, Debug)]
