@@ -36,3 +36,4 @@ mod reverse_vowels;
 mod count_points;
 mod find_the_longest_balanced_substring;
 mod can_construct;
+mod first_uniq_char;
