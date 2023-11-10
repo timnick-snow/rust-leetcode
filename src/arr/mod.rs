@@ -113,4 +113,5 @@ mod find_maximum_xor;
 mod vowel_strings;
 mod shuffle;
 mod maximum_minutes;
+mod successful_pairs;
 

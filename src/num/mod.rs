@@ -30,3 +30,4 @@ mod count_digits;
 mod count_numbers_with_unique_digits;
 mod get_sum;
 mod super_pow;
+mod lexical_order;
