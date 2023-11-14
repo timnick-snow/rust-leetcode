@@ -116,4 +116,5 @@ mod maximum_minutes;
 mod successful_pairs;
 mod min_swaps_couples;
 mod last_remaining;
+mod valid_utf8;
 
