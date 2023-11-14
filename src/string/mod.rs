@@ -39,3 +39,4 @@ mod can_construct;
 mod first_uniq_char;
 mod length_longest_path;
 mod find_the_difference;
+mod is_subsequence;
