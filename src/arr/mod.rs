@@ -118,4 +118,5 @@ mod min_swaps_couples;
 mod last_remaining;
 mod valid_utf8;
 mod maximize_sum;
+mod max_rotate_function;
 
