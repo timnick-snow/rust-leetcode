@@ -119,4 +119,5 @@ mod last_remaining;
 mod valid_utf8;
 mod maximize_sum;
 mod max_rotate_function;
+mod longest_alternating_subarray;
 
