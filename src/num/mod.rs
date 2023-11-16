@@ -32,3 +32,4 @@ mod get_sum;
 mod super_pow;
 mod lexical_order;
 mod integer_replacement;
+mod find_nth_digit;
