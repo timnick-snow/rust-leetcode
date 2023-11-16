@@ -10,3 +10,4 @@ mod nested_iterator;
 mod twitter;
 mod guess_number;
 mod get_money_amount;
+mod pick_random;
