@@ -31,6 +31,7 @@ mod right_side_view;
 mod trie;
 mod is_valid_serialization;
 mod smallest_missing_value_subtree;
+mod sum_of_left_leaves;
 
 use std::cell::RefCell;
 use std::rc::Rc;
