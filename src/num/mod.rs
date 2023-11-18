@@ -34,3 +34,4 @@ mod lexical_order;
 mod integer_replacement;
 mod find_nth_digit;
 mod read_binary_watch;
+mod to_hex;
