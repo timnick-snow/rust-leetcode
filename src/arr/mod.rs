@@ -125,4 +125,5 @@ mod maximum_sum_queries;
 mod can_cross;
 mod maximum_sum;
 mod max_sum_of_three_subarrays;
+mod reconstruct_queue;
 
