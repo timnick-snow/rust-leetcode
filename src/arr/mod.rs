@@ -129,4 +129,5 @@ mod reconstruct_queue;
 mod min_deletion;
 mod split_array;
 mod number_of_arithmetic_slices;
+mod third_max;
 
