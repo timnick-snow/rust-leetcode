@@ -65,8 +65,10 @@ impl Solution {
     }
 }
 
+// 方向定义
 const DIR: [(i32, i32); 4] = [(-1, 0), (0, 1), (1, 0), (0, -1)];
 
+// 高度 状态 行边界 列边界
 fn bfs(heights: &Vec<Vec<i32>>, state: &mut Vec<Vec<bool>>, rb: usize, cb: usize) {
     let (m, n) = (state.len(), state[0].len());
     // 搜索队列
@@ -83,7 +85,7 @@ fn bfs(heights: &Vec<Vec<i32>>, state: &mut Vec<Vec<bool>>, rb: usize, cb: usize
             state[i][cb] = true;
         }
     }
-
+    // bfs搜索
     while let Some((r, c)) = deque.pop_front() {
         // 枚举四个方向
         for &(di, dj) in DIR.iter() {
