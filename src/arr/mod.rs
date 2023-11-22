@@ -130,4 +130,5 @@ mod min_deletion;
 mod split_array;
 mod number_of_arithmetic_slices;
 mod third_max;
+mod min_path_cost;
 
