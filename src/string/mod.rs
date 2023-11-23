@@ -46,3 +46,4 @@ mod remove_kdigits;
 mod longest_palindrome;
 mod add_strings;
 mod entity_parser;
+mod strong_password_checker;
