@@ -32,6 +32,7 @@ mod trie;
 mod is_valid_serialization;
 mod smallest_missing_value_subtree;
 mod sum_of_left_leaves;
+mod pseudo_palindromic_paths;
 
 use std::cell::RefCell;
 use std::rc::Rc;
