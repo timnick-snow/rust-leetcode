@@ -11,3 +11,4 @@ mod twitter;
 mod guess_number;
 mod get_money_amount;
 mod pick_random;
+mod all_one;
