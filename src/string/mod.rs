@@ -50,3 +50,4 @@ mod strong_password_checker;
 mod original_digits;
 mod character_replacement;
 mod unique_letter_string;
+mod min_mutation;
