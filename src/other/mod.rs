@@ -13,3 +13,4 @@ mod get_money_amount;
 mod pick_random;
 mod all_one;
 mod front_middle_back_queue;
+mod smallest_infinite_set;
