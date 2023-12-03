@@ -141,4 +141,5 @@ mod find_right_interval;
 mod close_strings;
 mod first_complete_index;
 mod car_pooling;
+mod max_score;
 
