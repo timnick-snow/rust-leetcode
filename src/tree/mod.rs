@@ -34,6 +34,7 @@ mod smallest_missing_value_subtree;
 mod sum_of_left_leaves;
 mod pseudo_palindromic_paths;
 mod path_sum3;
+mod bst_to_gst;
 
 use std::cell::RefCell;
 use std::rc::Rc;
