@@ -143,4 +143,5 @@ mod first_complete_index;
 mod car_pooling;
 mod max_score;
 mod max_taxi_earnings;
+mod find_peak_grid;
 
