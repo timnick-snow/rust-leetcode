@@ -52,3 +52,4 @@ mod character_replacement;
 mod unique_letter_string;
 mod min_mutation;
 mod count_segments;
+mod is_acronym;
