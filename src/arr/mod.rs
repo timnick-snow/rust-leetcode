@@ -146,4 +146,5 @@ mod max_taxi_earnings;
 mod find_peak_grid;
 mod minimum_removal;
 mod alternating_subarray;
+mod maximum_sum_of_heights;
 
